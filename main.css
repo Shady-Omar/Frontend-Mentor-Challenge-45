@@ -103,6 +103,14 @@ main::after {
     position: relative;
 }
 
+.header::before {
+    content: url(images/bi_three-dots-vertical.svg);
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: scale(1.2);
+}
+
 .header::after {
     content: url(images/arrow-left.svg);
     position: absolute;
